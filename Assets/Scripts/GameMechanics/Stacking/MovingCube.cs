@@ -38,14 +38,14 @@ public class MovingCube : MonoBehaviour {
         if (currentCube != lastCube) {
             directionMult = 1;
         }
-        GetComponent<Renderer>().material.color = GetRandomColor();
+        //GetComponent<Renderer>().material.color = GetRandomColor();
 
         transform.localScale = new Vector3(lastCube.transform.localScale.x, transform.localScale.y, lastCube.transform.localScale.z);
     }
 
-    private Color GetRandomColor() {
-        return new Color(UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f));
-    }
+    // private Color GetRandomColor() {
+      //  return new Color(UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f), UnityEngine.Random.Range(0, 1f));
+    //}
 
     internal void Stop() {
         directionMult = 0;
