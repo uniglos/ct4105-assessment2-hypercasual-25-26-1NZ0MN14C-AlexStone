@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 3021479988577436016}
   - component: {fileID: 3288877018327876456}
   m_Layer: 5
-  m_Name: Canvas_Menu
+  m_Name: Fisher_Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
