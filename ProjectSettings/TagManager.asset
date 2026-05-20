@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fish
   - Coins
+  - targetlog
+  - Kunai
   layers:
   - Default
   - TransparentFX
