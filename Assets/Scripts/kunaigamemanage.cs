@@ -89,9 +89,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+public GameObject uiObject;
+    void Start()
+    {
+        uiObject.SetActive(false);
+    }
+
     public void GameOver()
     {
         Debug.Log("💀 GAME OVER - State: " + currentState + " | Score: " + score);
+        uiObject.SetActive(true);
         Time.timeScale = 0f;
     }
 }

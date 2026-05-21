@@ -8,6 +8,7 @@ TagManager:
   - Coins
   - targetlog
   - Kunai
+  - Death
   layers:
   - Default
   - TransparentFX

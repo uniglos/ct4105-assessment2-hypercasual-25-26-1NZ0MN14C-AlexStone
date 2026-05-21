@@ -26,6 +26,8 @@ public class Kunai : MonoBehaviour
         }
     }
 
+
+
     void StickToTarget(Transform targetParent)
     {
         isStuck = true;
